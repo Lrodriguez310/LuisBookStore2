@@ -104,6 +104,15 @@ https://getbootstrap.com/docs/4.0/components/navbar/
 
 28 10 2022 1040
 
+to wwwroot > replace the existing bootstrap.css found in:
+lib > bootstrap > dist > css
+
+to wwwroot > replace the existing site.css file found in the main css folder
+to Views > Shared > _Layout.cshtml, change the file name from bootstrap.min.css to bootstrap.css
+Change the nav class from navbar-light to navbar dark and bg-white to bg-primary
+Line 23 - remove text-dark
+Add additional properties to the footer class
+
 took out all dark text and added white text and then went to footer and adjusted its properties. with white text and background being the primary as the nav bar bootstrap
 
 29 10 2022  1141
@@ -199,4 +208,31 @@ modifeid views > shared > error.cshtml
 
 Project - add - project reference - .data access and .models
 renamed
+
+
+2 11 2022 1546
+
+Modified Startup.cs service ‘AddContext’ with the using statement
+
+
+2 11 2022 1555
+Ran the application and reviewed errors.
+
+Removed the using statement
+
+2 11 2022 1603
+Corrected any default reference to ErrorViewModel to the new .Models.ViewModels.ErrorViewModels
+
+When all errors are resolved run the application and review the browser presentation.
+
+2 11 2022 1609
+
+the Utility project, created a static details class called SD.cs
+Modified the properties of the class
+
+2 11 2022 1616
+
+Added project reference to the main project
+the DataAccess project add project references t o Models and Utility
+
 
