@@ -176,3 +176,27 @@ Figured it out!!!  @model LuisBookStore.Models.ViewModels.ErrorViewModel
 2 11 2022 1201
 
 4 more errors to knock out!
+
+2 11 2022 1456
+
+having a hard time getting the website to load finding out what I can do 
+
+2 11 2022 1530
+
+Got the website to run finally after hours and hours... wow I had to comment out the ssl for this new project.
+
+// ssl
+
+2 11 2022 1540
+
+Move models into Luis.Books.Models and deleted original
+
+2 11 2022 1541
+
+modifeid views > shared > error.cshtml
+
+2 11 2022 1544
+
+Project - add - project reference - .data access and .models
+renamed
+
