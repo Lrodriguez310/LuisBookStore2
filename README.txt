@@ -1,13 +1,40 @@
 ﻿﻿Programmer name: Luis Rodriguez
 Program purpose: To make a web app that showcases different books from vice city Miami
 Program start: 25 10 2022 1115
-Program end:
-Last edited: 11/1/2022
+Program end: 2 11 2022 1752
+Last edited: 2 11 2022 1755
+Bootstrap type: Quartz
 
 
 25 10 2022 1120
 
 Starting project beginning with the set up
+
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠖⠚⠉⠉⠀⠀⠀⠀⠉⠉⠙⠒⠤⣄⡀⠀⠀⣀⣠⣤⣀⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠖⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢯⡀⠀⠀⠀⠉⠳⣄⠀
+⠀⠀⣀⠤⠔⠒⠒⠒⠦⢤⣀⢀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⢠⣤⣄⠀⠀⠀⠀⠀⣴⢶⣄⠀⠀⠀⠉⢢⡀⠀⠀⠀⠘⡆
+⢠⠞⠁⠀⠀⠀⠀⠀⠀⠀⠈⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠀⢹⣧⠀⠀⠀⠀⣿⠀⢹⣇⠀⠀⠀⠀⠙⢦⠀⠀⠀⣧
+⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣦⣼⣿⡇⠀⠀⠀⢿⣿⣿⣿⡄⠀⠀⠀⠀⠈⢳⡀⢀⡟
+⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⡿⠿⠿⣿⠀⠀⠀⠘⣿⡛⣟⣧⠀⠀⠀⠀⠀⠀⢳⠞⠀
+⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⡄⢴⡿⠀⠀⠀⠀⠘⣿⣷⡏⠀⢀⡠⠤⣄⠀⠀⣇⠀
+⠀⢳⡀⠀⠀⠀⠀⠀⠀⢠⠏⠀⠀⠀⠀⠀⣠⠄⠀⠀⠀⠀⠀⠈⠛⠛⠁⣀⡤⠤⠤⠤⢌⣉⠀⠀⢠⡀⠀⠀⡱⠀⢸⡄
+⠀⠀⠙⠦⣀⠀⠀⠀⣰⠋⠀⠀⠀⠀⠀⠸⣅⠀⠀⢀⡀⠀⠀⠀⢀⠴⠋⠀⠀⠀⠀⠀⠀⠈⠳⣄⠀⠈⠉⠉⠀⠀⢘⣧
+⠀⠀⠀⠀⠈⠙⢲⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠁⠀⠀⠀⣰⣋⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠈⢧⠀⠀⠀⠀⠀⢐⣿
+⠀⠀⠀⠀⠀⠀⢸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠉⠙⠒⢤⣀⠀⠀⠈⣇⠀⠀⠀⠀⠀⣿
+⠀⠀⠀⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⣄⠀⢸⠀⠀⠀⠀⢠⡏
+⠀⠀⠀⠀⠀⠀⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠘⣧⠀⠀⠀⣸⠀
+⠀⠀⠀⠀⠀⠀⠀⡟⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⢰⠏⠀⠀⢠⠇⠀
+⠀⠀⠀⠀⠀⠀⢸⠁⠘⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⣸⠀⠀⢀⠏⠀⠀
+⠀⠀⠀⠀⠀⠀⣿⠀⠀⠘⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡴⣣⠃⠀⣠⠏⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠈⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠞⡱⠋⢀⡴⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠈⠣⣄⠀⠀⠀⠀⠀⠀⠀⠹⣄⠀⠀⠀⠀⢀⣀⡤⠖⢋⡠⠞⢁⡴⠋⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠈⠙⠢⣄⡀⠀⠀⠀⠀⠈⠙⠯⠭⢉⠡⠤⠴⠒⣉⠴⠚⠁⠀⢰⠃⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢹⠖⠲⠤⠤⠤⠤⠤⠤⢶⡖⠚⠉⠀⠀⠀⠀⢀⡞⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⠤⠤⠤⠤⠔⠋⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢤⡀⠀⠀⠀⠀⣠⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠑⠒⠒⠋⠂⠐⠒⠀⠀⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Ascii art from : https://copypastatext.com/category/ascii-art/page/3/
 
 
 
@@ -97,7 +124,7 @@ endpoints.MapRazorPages();
 26 10 2022  1603
 
 replacing things in the start up file.
-
+---------------------------------------------
 Using quartz for my bootstrap
 
 https://getbootstrap.com/docs/4.0/components/navbar/
@@ -192,6 +219,26 @@ having a hard time getting the website to load finding out what I can do
 
 2 11 2022 1530
 
+Had to Start PROJECT OVERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  NEED TO USE 5.0 FOR THE PACKAGES111!!!!!!!!!!!!!!!!!!!
+
+⢟⣭⡙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⣶⣦⡙⣿⣿
+⢸⡿⢣⣤⣍⢻⣿⣿⣿⡿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠛⣭⣥⡘⢿
+⣎⠃⣿⡿⠏⣘⣛⠿⡟⣼⣿⣷⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢉⣿⣧⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⢿⣿⣿⠀⠹⣿⣿⠘
+⣿⡇⡿⢱⣿⣿⣿⡇⣰⣿⡟⣥⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣨⣥⣤⣤⣄⠉⠉⡛⠿⣿⣿⣿⣿⣿⣿⣿⠁⣿⣿⡎⣿⡿⠐⣤⣭⡙⢰
+⣿⣷⠀⣾⣿⢫⣴⣾⣿⡿⢰⣿⣿⣿⣿⣿⣿⣿⠟⣡⠤⠔⠛⠛⣿⣿⣟⠋⠉⠙⠛⠷⣦⡙⢿⣿⣿⣿⣿⣷⡜⣿⡇⠟⣡⣆⠻⣿⣿⡆
+⣿⣿⣧⢹⣿⣸⣿⣿⣿⡇⢻⣿⣿⣿⣿⣿⠟⣱⠞⠁⢀⠀⣠⣶⣿⣿⣿⣧⣐⠠⣀⠀⢸⣿⣦⡙⣿⣿⣿⣿⡇⣼⣿⢾⣿⡿⢃⣸⣿⠇
+⣿⣿⣿⡜⣿⣿⣿⣦⠙⡗⣸⣿⣿⣿⣿⠃⣾⣧⣤⣶⣶⠾⣋⣥⣶⣶⣶⣤⣍⡻⣿⣿⣿⣿⣿⣷⡘⢿⣿⣿⡇⠟⢰⣾⣿⣷⣿⣿⢋⣼
+⣿⣿⣿⣿⣜⠿⣿⣿⡇⣴⣿⣿⣿⣿⠇⣾⣿⣿⣿⡿⢡⣾⣿⣿⣿⣿⣿⣿⣿⣷⣎⠻⣿⣿⣿⣿⣿⡘⣿⣿⣿⣄⠸⣿⣿⠿⢋⣵⣿⣿
+⣿⣿⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⡟⢰⣿⣿⣿⡿⣱⣿⡿⠁⠀⠹⣿⠏⠀⠙⣿⣿⣧⠹⣿⣿⣿⣿⣧⢸⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣾⣿⣿⡿⢱⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣧⢹⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⣿⣿⢃⣾⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡆⢿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢹⣿⡿⢸⣿⣿⣿⠀⢠⣴⣾⣿⣷⣦⡄⢠⣿⣿⣿⣿⠸⣿⣿⡿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡌⢿⡇⣿⣿⣿⢋⣼⣿⣿⣿⣿⣿⣿⣿⣧⡙⣿⣿⣿⡇⢿⣿⠃⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⢸⡇⣿⡿⢣⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣌⠻⣿⡇⢸⠉⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡘⣷⣶⢖⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⣬⣴⣿⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣌⣥⡘⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⢂⣙⣛⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⣉⡛⠛⠿⠿⠿⠿⠛⢛⣋⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+
 Got the website to run finally after hours and hours... wow I had to comment out the ssl for this new project.
 
 // ssl
@@ -234,5 +281,41 @@ Modified the properties of the class
 
 Added project reference to the main project
 the DataAccess project add project references t o Models and Utility
+
+2 11 2022 1624
+
+ADDED  a customers area to Areas
+changed the routes in Startup.cs like the one outlined in the scaffoldingreadme.txt that was generated
+
+2 11 2022 1630
+
+Moved the HomeController.cs to the Area > Customer > Controller folder and delete Data and Models.
+Edited the HomeController.cs to explicitly define that the controller is in the Customer Area
+Moved Views > Home and modify the HomeController namespace
+
+2 11 2022 1702
+
+app is looking very ugly and I hope it gets better because its looking too plain jane!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Hopefully I didn't make a mistake along the way
+
+
+
+2 11 2022 1713
+
+Views are now in Areas, but master page is defined in _ViewStart
+CopIED (  _ViewImport and _ViewStart ) to Customer Area 
+ModifIED the _ViewStart.cshtml to reflect the new path
+
+
+
+2 11 2022 1734
+
+Added the new admin folder to Areas in mvc area selected.  
+After getting the new admin folder I will Add the proper view files and delete the Data and Models folder
+Deleted the Controllers folder
+
+
+2 11 2022 1752
+
+Project is DONE!
 
 
