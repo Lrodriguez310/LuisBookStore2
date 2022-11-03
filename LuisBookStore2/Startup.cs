@@ -33,7 +33,7 @@ namespace LuisBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>()  // deleted everything inside the parenthesis
+            services.AddDefaultIdentity<IdentityUser>()  // deleted everything inside the parenthesis which was (options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
         }
