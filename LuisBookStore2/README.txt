@@ -294,3 +294,18 @@ updated the database using "update-database"
 2022 11 7 1723
 
 added new class to luisbookstore.models called category.cs then populated it with a key and a getter and setter.
+
+2022 11 7 1727
+
+updated application Db context.cs
+
+2022 11 7 1729
+
+package manager console 
+add-migration AddCategoryToDb
+added category section to database
+
+
+2022 11 7 1748
+
+was having trouble with the Irepository.cs but found a way to fix it. At first I had Expressions in the plural and then I made it singular.
