@@ -16,5 +16,10 @@ namespace LuisBooks.DataAccess.Repository.IRepository
             _db = db;
         }
 
+        public void Update(Category category)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

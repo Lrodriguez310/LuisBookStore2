@@ -345,7 +345,14 @@ no errors so far.
 
 updated the IcateogryRepository interface. Linked it to Irepository < category> 
 
+Fixed error in CategoryRepository.cs by adding 
 
+public void Update(Category category)
+        {
+            throw new NotImplementedException();
+        }
+
+        this alleviated the errors.
 
 2022 11 7 1817
 
