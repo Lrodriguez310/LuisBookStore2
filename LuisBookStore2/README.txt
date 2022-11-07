@@ -319,7 +319,11 @@ updated the Irepository.cs and added void methods as the index some to remove an
 2022 11 7 1805
 
 
+Worked on Repository.cs add the right usings and the correct public classes and privates classes. Made sure there were no errors.
 
+I misspelled a lot of things went back and fixed it.
+
+0 ERRORS/
 
 
 
