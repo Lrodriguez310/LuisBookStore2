@@ -311,3 +311,65 @@ added category section to database
 2022 11 7 1748
 
 was having trouble with the Irepository.cs but found a way to fix it. At first I had Expressions in the plural and then I made it singular.
+
+2022 11 7 1757
+
+updated the Irepository.cs and added void methods as the index some to remove an entity , one to add an entity, and other ways to remove an entity.
+
+2022 11 7 1805
+
+
+
+
+
+
+
+2022 11 7 1811
+
+
+
+2022 11 7 1814
+
+
+
+2022 11 7 1817
+
+
+
+
+2022 11 7 1821
+
+
+
+
+2022 11 7 1824
+
+
+
+
+2022 11 7 1840
+
+
+
+
+2022 11 7 1843
+
+
+
+
+2022 11 7 1855
+
+
+
+
+2022 11 7 1857
+
+
+
+
+2022 11 7 1900
+
+
+
+
+2022 11 7 1905
