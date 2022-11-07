@@ -343,6 +343,8 @@ no errors so far.
 
 2022 11 7 1814
 
+updated the IcateogryRepository interface. Linked it to Irepository < category> 
+
 
 
 2022 11 7 1817
