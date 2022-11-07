@@ -288,3 +288,5 @@ tried commenting out some parts of the database under appsettings.json
 Had to change the default project to LuisBooks.DataAccess in order to get things to work out
 
 2022 11 7 1701
+
+updated the database using "update-database"
