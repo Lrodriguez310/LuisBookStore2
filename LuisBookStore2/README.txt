@@ -262,3 +262,29 @@ Deleted the Controllers folder
 Project is DONE!
 
 
+2022 11 7 1628
+
+updated migrations to fit my .net 3.0.  Had to change them because I accidentally selected 5.0 support instead of 
+3.0.  Updated all packages to fit project.
+
+2022 11 7 1630
+
+running project... no errors ... everything looks good.
+
+2022 11 7 1637
+
+add-migration AddDefaultIdentityMigration   adding migrations to tools nuget packet manager and then console
+
+2022 11 7 1640
+
+There was an error  when trying to add migration
+
+tried commenting out some parts of the database under appsettings.json
+
+//"Server=(localdb)\\mssqllocaldb;Database=aspnet-LuisBookStore-E9FF903B-01C6-4B3E-9B94-1D539FA70443;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+2022 11 7 1644
+
+Had to change the default project to LuisBooks.DataAccess in order to get things to work out
+
+2022 11 7 1701
