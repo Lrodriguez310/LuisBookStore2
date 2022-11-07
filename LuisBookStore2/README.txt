@@ -330,6 +330,13 @@ I misspelled a lot of things went back and fixed it.
 
 2022 11 7 1811
 
+adding category.cs
+and adding an interface Icategory.cs
+
+updating category.cs putting in the data to link to Icategory and .dataaccess project.
+
+no errors so far.
+
 
 
 
