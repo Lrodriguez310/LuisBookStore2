@@ -290,3 +290,7 @@ Had to change the default project to LuisBooks.DataAccess in order to get things
 2022 11 7 1701
 
 updated the database using "update-database"
+
+2022 11 7 1723
+
+added new class to luisbookstore.models called category.cs then populated it with a key and a getter and setter.
