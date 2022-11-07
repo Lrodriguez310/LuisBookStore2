@@ -262,6 +262,8 @@ Deleted the Controllers folder
 Project is DONE!
 
 
+=================Assignment 2 Begins ===============================================================================
+
 2022 11 7 1628
 
 updated migrations to fit my .net 3.0.  Had to change them because I accidentally selected 5.0 support instead of 
