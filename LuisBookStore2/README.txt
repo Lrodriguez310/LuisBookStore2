@@ -533,4 +533,33 @@ and added code asp-route-id="@Model">Update</button>  for the ID
 
 2022 11 8 1235
 
-2022 11 8
+updated the upsert by providing labels to the name and textbox for the names.
+I also placed a new @models at the top to LuisbookStore
+
+
+2022 11 8 1240
+
+added asp action-upsert to the index.cshtml
+sql error couldnt find the Createandbacktolistbutton
+
+
+
+
+2022 11 8 1242
+
+fixed error I misspelled createandbacktolistbutton.  After correcting spelling it works.
+
+I then Added scripts to button of form on Upsert.cshtml
+
+
+2022 11 8 1253
+
+had a warning asking me to use the variable title
+I then applied the variable title into the h2 tag with @title
+this helped it to populate edit category on the edit file.
+
+
+2022 11 8 1255
+
+
+2022 11 8 1304
