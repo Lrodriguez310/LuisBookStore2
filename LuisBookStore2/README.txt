@@ -401,6 +401,14 @@ added isp_call.cs as an interface added the following code
 
 2022 11 7 1840
 
+added class SP_Call and added code to connect it 
+
+// Access the Database
+        private readonly ApplicationDbContext _db;
+        private static string ConnectionString = ""; // this is needed to call the stored procedures
+
+        //Constructor to open Sql Database
+
 
 
 
