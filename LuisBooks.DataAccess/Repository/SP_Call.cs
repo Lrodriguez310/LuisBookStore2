@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Data.SqlClient;
 
 namespace LuisBooks.DataAccess.Repository
 {
@@ -23,17 +24,28 @@ namespace LuisBooks.DataAccess.Repository
         }
         public void Dispose()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            _db.Dispose();
         }
 
         public void Execute(string procedurename, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString)){
+                sqlCon.Open();
+                sqlCon.Execute(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+            }
         }
 
         public IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                return sqlCon.Query<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+            }
         }
 
         public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null)

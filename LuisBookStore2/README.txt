@@ -414,6 +414,10 @@ added class SP_Call and added code to connect it
 
 2022 11 7 1843
 
+SP_Call commmented out all of the throw exceptions out and added new connections to the sql
+private static string ConnectionString = ""; // this is needed to call the stored procedures
+getting SQL connections for the SP_Call class.
+
 
 
 
