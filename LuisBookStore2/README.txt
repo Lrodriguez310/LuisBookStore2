@@ -474,16 +474,29 @@ I had an error ... working on it trying to find a solution
 
 solution found!  had to rename file to Controllers and update the namespace.
 
-2022 11 8
+2022 11 8 1108
 
 Now adding a view into the category folder named index.cshtml
 
-2022 11 8
+2022 11 8 1110
 
 added code into the index.cshtml 
 This will be for the table
+I will now run the application
 
-2022 11 8
+Everything is running well
+
+2022 11 8 1116
+
+went into _Layout.cshtml
+
+Added the Category into the index html 
+
+and put it under the contentmanagement. The page is working and the table is trying to create but we
+have not made a create folder just yet.
+I have also commented out the Action tag under content management to make space for Category in the content management dropdown.
+
+Gave the Category the class name dropdown item to fit into the content management drop down.
 
 2022 11 8
 
