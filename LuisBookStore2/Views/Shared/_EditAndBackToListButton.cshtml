@@ -1,0 +1,15 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model int
+<div class="row">
+    <div class="col">
+        <button type="submit" class="btn btn-primary form-control" asp-route-id="@Model">Update</button>
+
+    </div>
+    <div class="col">
+        <a asp-action="Index" class="btn btn-success form-control">Back To List</a>
+    </div>
+</div>

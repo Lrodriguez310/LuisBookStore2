@@ -514,9 +514,22 @@ added upsert.cshtml into category folder under admin
 added code into the upsert.cshtml Divs with edit and back
 Name and textbox to input name
 
-2022 11 8
+2022 11 8 1221
 
-2022 11 8
+created a view into shared folder called _CreateAndBackToListButton.cshtml
+I then populated it with code
+The code is a button to help to create and get back to the list.
+made sure to add the Asp action to index.
+
+2022 11 8 1222
+
+Created a view into shared folder called _EditAdnBackToListButton.cshtml
+This is for the Editing of the list and of course the back
+Copy and pasted code from createandbacktolistbutton in this file.
+
+placed @model int at the top for the integer
+
+and added code asp-route-id="@Model">Update</button>  for the ID
 
 2022 11 8
 
