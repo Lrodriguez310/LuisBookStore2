@@ -559,7 +559,10 @@ I then applied the variable title into the h2 tag with @title
 this helped it to populate edit category on the edit file.
 
 
-2022 11 8 1255
+2022 11 8 1555
+
+added an API message in asking if the user is sure if he wants to delete 
+the input from the table.
 
 
-2022 11 8 1304
+
