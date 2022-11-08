@@ -1,8 +1,8 @@
 ﻿﻿Programmer name: Luis Rodriguez
 Program purpose: To make a web app that showcases different books from vice city Miami
 Program start: 2022 10 25 1115
-Program end:   2022 11 2 1752
-Last edited:   2022 11 2 1755
+Program end:   2022 11 8 1752
+Last edited:   2022 11 8 1755
 Bootstrap type: Quartz
 
 
@@ -292,7 +292,8 @@ Had to change the default project to LuisBooks.DataAccess in order to get things
 
 2022 11 7 1701
 
-updated the database using "update-database"
+updated the database using "update-database" in the package database console.  
+
 
 2022 11 7 1723
 
@@ -450,7 +451,11 @@ added to start up.cs
 
 services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+2022 11 7 1901
+
+Ending for now
 
 
+2022 11 8 1034
 
-2022 11 7 1905
+Starting project again.
