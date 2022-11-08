@@ -476,7 +476,12 @@ solution found!  had to rename file to Controllers and update the namespace.
 
 2022 11 8
 
+Now adding a view into the category folder named index.cshtml
+
 2022 11 8
+
+added code into the index.cshtml 
+This will be for the table
 
 2022 11 8
 
