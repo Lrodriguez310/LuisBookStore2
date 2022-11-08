@@ -365,10 +365,36 @@ used .NET LINQ to retrieve the first or default category object
 
 2022 11 7 1821
 
+modified categoryrepository.cs with the using statments at the beginning
+used .NET LINQ to retrieve the first or default category object
+           then passed the id as a generic entity which matters the category ID
+modified Icategoryrepository.cs also with using statements at the beginning and also added code
+
 
 
 
 2022 11 7 1824
+
+added isp_call.cs as an interface added the following code
+
+ // e.g first column of first row in the result set
+        T Single<T>(string procedurename, DynamicParameters param = null);
+
+// execute something to the database but not retreive anything
+
+        void Execute(string procedurename, DynamicParameters param = null);
+
+// retrieves the complete row or record
+
+        T OneRecord<T>(string procedurename, DynamicParameters param = null);
+
+ //get all of the rows
+
+        IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null);
+
+ // stored procedure that returns two tables
+
+        Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null);
 
 
 
