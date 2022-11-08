@@ -508,7 +508,11 @@ added a new category under js called category.js and populated the div from inde
 
 I then deleted the new div under index.cshtml.
 
-2022 11 8
+2022 11 8 1211
+right clicked on upsert and added upsert.cshtml
+added upsert.cshtml into category folder under admin
+added code into the upsert.cshtml Divs with edit and back
+Name and textbox to input name
 
 2022 11 8
 

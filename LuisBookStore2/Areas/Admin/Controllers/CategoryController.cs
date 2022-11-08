@@ -1,4 +1,5 @@
 ﻿using LuisBooks.DataAccess.Repository.IRepository;
+using LuisBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,24 @@ namespace LuisBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            //this is for the edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View();
+        }
+                                             
 
         //API calls here
         #region API CALLS
