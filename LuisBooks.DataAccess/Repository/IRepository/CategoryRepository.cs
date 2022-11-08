@@ -8,7 +8,7 @@ using System.Text;
 
 namespace LuisBooks.DataAccess.Repository.IRepository
 {
-   public class CategoryRepository : Repository<Category> , ICategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
 
@@ -20,15 +20,14 @@ namespace LuisBooks.DataAccess.Repository.IRepository
         public void Update(Category category)
         {
             //throw new NotImplementedException();
-            // use .NET LINQ to retrieve the first or default category object
+            //use .NET LINQ to retrieve the first or default category object
             // then pass the id as a generic entity which matters the category ID
             var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
-            if(objFromDb != null)
+            if (objFromDb != null)//Save changes if not null
             {
                 objFromDb.Name = category.Name;
                 _db.SaveChanges();
             }
         }
-
     }
 }
