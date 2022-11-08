@@ -461,18 +461,19 @@ Ending for now
 Starting project again. 2.3 category CRUD
 
 
-2022 11 8
+2022 11 8 1048
 
 added Controllers to the Admin folder since it was loading right
 Then added a Category Controller.cs into the controllers folder and updated it
 
-2022 11 8
+2022 11 8 1054
 
 I had an error ... working on it trying to find a solution
 
-2022 11 8
+2022 11 8 1100
 
 solution found!  had to rename file to Controllers and update the namespace.
+
 2022 11 8
 
 2022 11 8
