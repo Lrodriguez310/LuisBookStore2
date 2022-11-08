@@ -356,6 +356,10 @@ public void Update(Category category)
 
 2022 11 7 1817
 
+In the CategoryRepository.cs
+used .NET LINQ to retrieve the first or default category object
+           then passed the id as a generic entity which matters the category ID
+
 
 
 
