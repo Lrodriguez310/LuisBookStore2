@@ -423,15 +423,24 @@ getting SQL connections for the SP_Call class.
 
 2022 11 7 1855
 
-
+updated the rest of the SP_Call had an error and forgot to add the rest of the code. found where to add it and cleared it.
 
 
 2022 11 7 1857
+
+made the method public to access the class
+made the using statement
+ applied constructor to use DI and inject in to the repositories
+all changes will be saved when the save method is called at the parent level
 
 
 
 
 2022 11 7 1900
+
+added to start up.cs 
+
+services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 

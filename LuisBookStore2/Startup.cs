@@ -1,4 +1,6 @@
 
+using LuisBooks.DataAccess.Repository;
+using LuisBooks.DataAccess.Repository.IRepository;
 using LuisBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,6 +37,7 @@ namespace LuisBookStore
 
             services.AddDefaultIdentity<IdentityUser>()  // deleted everything inside the parenthesis which was (options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Data.SqlClient;
+using System.Linq;
 
 namespace LuisBooks.DataAccess.Repository
 {
@@ -50,17 +51,41 @@ namespace LuisBooks.DataAccess.Repository
 
         public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                var result = SqlMapper.QueryMultiple(sqlCon, procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+                var item1 = result.Read<T1>().ToList();
+                var item2 = result.Read<T2>().ToList();
+
+                if (item1 != null && item2 != null)
+                {
+                    return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(item1, item2);
+                }
+                return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
+            }
         }
 
         public T OneRecord<T>(string procedurename, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                var value = sqlCon.Query<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+                return (T)Convert.ChangeType(value.FirstOrDefault(), typeof(T));
+            }
+            //throw new NotImplementedException();
         }
 
         public T Single<T>(string procedurename, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T));
+            }
+            //throw new NotImplementedException();
         }
     }
 }
