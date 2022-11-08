@@ -20,7 +20,7 @@ namespace LuisBooks.DataAccess.Repository
         }
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+           // throw new NotImplementedException();
         }
 
         public T Get(int id)

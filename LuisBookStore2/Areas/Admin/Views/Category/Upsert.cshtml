@@ -10,7 +10,7 @@
 <form method="POST">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if(Model.Id != null)
+        @if(Model.Id != 0)
         {
             //edit
             title = "Edit Category";
