@@ -498,9 +498,15 @@ I have also commented out the Action tag under content management to make space 
 
 Gave the Category the class name dropdown item to fit into the content management drop down.
 
-2022 11 8
+2022 11 8 1140
 
-2022 11 8
+added a new div into the index.cshtml which includes a icon for deletion and insertion
+
+2022 11 8 1151
+
+added a new category under js called category.js and populated the div from index.cshtml
+
+I then deleted the new div under index.cshtml.
 
 2022 11 8
 

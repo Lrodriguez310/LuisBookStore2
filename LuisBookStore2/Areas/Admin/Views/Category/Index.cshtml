@@ -2,7 +2,10 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    
 }
+
+
 
 <h1>Index</h1>
 <br />
@@ -26,12 +29,17 @@
         </thead>
     </table>
 </div>
-<div class="text-center">
+@*<div class="text-center">
     <a href="/Admin/Category/Upsert/id" class="btn btn-success text-white" style="cursor:pointer">
         <i class="fas fa-edit"></i>&nbsp;
     </a>
     <a class="btn btn-danger text-white" style="cursor:pointer">
         <i class="fas fa-trash-alt"></i>&nbsp;
     </a>
-</div>
+</div> *@
+
+@section Scripts{ 
+
+<script src="~/js/category.js"></script>
+}
 
