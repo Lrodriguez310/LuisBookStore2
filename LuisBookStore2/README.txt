@@ -273,9 +273,10 @@ updated migrations to fit my .net 3.0.  Had to change them because I accidentall
 
 running project... no errors ... everything looks good.
 
-2022 11 7 1637
+2022 11 7 1637  ------- Migration 1
 
 add-migration AddDefaultIdentityMigration   adding migrations to tools nuget packet manager and then console
+File Name was made 2022 11 07 1637  AddDefaultIdentityMigration.cs => 20221107214401_AddDefaultIdentityMigration.cs
 
 2022 11 7 1640
 
@@ -297,14 +298,21 @@ updated the database using "update-database"
 
 added new class to luisbookstore.models called category.cs then populated it with a key and a getter and setter.
 
-2022 11 7 1727
+2022 11 7 1727 
 
 updated application Db context.cs
 
-2022 11 7 1729
+2022 11 7 1729  ------ Migration 2
 
 package manager console 
+
 add-migration AddCategoryToDb
+
+File Name: AddCategoryToDb => 20221107222829_AddCategoryToDb.cs
+
+
+
+
 added category section to database
 
 
