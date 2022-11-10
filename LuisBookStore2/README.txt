@@ -567,11 +567,27 @@ the input from the table.
 Also had an error on the javascript file trying to figure it out
 
 
-2022 1606
+2022 11 8 1606
 
 figured out the error changed the ; into a =>  this
 
 this fixed the error. moving on.
+
+2022 11 1023
+
+having an error everytime I try and add a category to the list.
+The error refers me to repository.cs line 24
+
+public void Add(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+tried commenting it out and it does not work. 
+
+Tried changing the name it still doesnt work.
+
+googled searched on how to fix issue but could not find anything to fit the project or repository issue.
 
 
 
