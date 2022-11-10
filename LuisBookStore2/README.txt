@@ -590,4 +590,10 @@ Tried changing the name it still doesnt work.
 googled searched on how to fix issue but could not find anything to fit the project or repository issue.
 
 
+2022 11 1125
+
+view - sql server project explorer localdb mssqllocall is not showing my database...
+Trying to find out how to resolve the error.
+
+
 

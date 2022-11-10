@@ -21,12 +21,14 @@ namespace LuisBooks.DataAccess.Repository
         }
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Add(entity);  //trying to see if this works... takes away the error but nothing more
+            //throw new NotImplementedException();
         }
 
         public T Get(int id)
         {
-            throw new NotImplementedException();
+            return dbSet.Find(id);   // still cannot populate..
+            //throw new NotImplementedException();
         }
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
@@ -36,7 +38,7 @@ namespace LuisBooks.DataAccess.Repository
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
-            throw new NotImplementedException();
+           throw new NotImplementedException();
         }
 
         public void Remove(int id)
