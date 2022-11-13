@@ -25,14 +25,14 @@ namespace LuisBooks.DataAccess.Repository
             _db.Dispose(); 
         }
 
-        public void Save()
+        public void save()
         {
             _db.SaveChanges(); // all changes will be saved when the save method is called at the parent level
         }
 
-        public void save()
-        {
+        //public void save()
+       // {
            // throw new NotImplementedException();
-        }
+        //}
     }
 }
