@@ -2,7 +2,7 @@
 Program purpose: To make a web app that showcases different books from vice city Miami
 Program start: 2022 10 25 1115
 Program end:   2022 11 8 1752
-Last edited:   2022 11 8 1755
+Last edited:   2022 11 14 1755
 Bootstrap type: Quartz
 
 
@@ -573,7 +573,7 @@ figured out the error changed the ; into a =>  this
 
 this fixed the error. moving on.
 
-2022 11 1023
+2022 11 8 1023
 
 having an error everytime I try and add a category to the list.
 The error refers me to repository.cs line 24
@@ -590,10 +590,30 @@ Tried changing the name it still doesnt work.
 googled searched on how to fix issue but could not find anything to fit the project or repository issue.
 
 
-2022 11 1125
+2022 11 8 1125
 
 view - sql server project explorer localdb mssqllocall is not showing my database...
 Trying to find out how to resolve the error.
+
+
+2022 11 14  1850
+
+Cannot populate chart and missing database
+
+Running Update-databse on the package manager console to generate and update an sql server - database
+Database has now been populated under views - sql server object explorer - sql server - databases folder - reveals LuisBookStore
+
+2022 11 14 1851
+
+having trouble populating items into chart / table
+
+2022 11 14 1945
+
+resolved issue by changed some of the javascript and upsert file. Added the correct case for the letter s in save and this seemed to solve the 
+issue. Application is working well so far. 
+
+Ending assingment 2  at 2022 11 14 1955
+
 
 
 
