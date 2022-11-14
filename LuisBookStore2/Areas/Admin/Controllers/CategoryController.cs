@@ -1,6 +1,6 @@
-﻿using LuisBooks.DataAccess.Repository.IRepository;
+﻿using Microsoft.AspNetCore.Mvc;
+using LuisBooks.DataAccess.Repository.IRepository;
 using LuisBooks.Models;
-using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,7 +59,8 @@ namespace LuisBookStore.Areas.Admin.Controllers
             }
             return View(category);
         }
-                  //API calls here
+        //API calls here
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
@@ -81,5 +82,6 @@ namespace LuisBookStore.Areas.Admin.Controllers
             return Json(new { success = true, message = "Delete Successfull" });
         }
         #endregion
+
     }
 }
