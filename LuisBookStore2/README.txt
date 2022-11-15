@@ -2,7 +2,7 @@
 Program purpose: To make a web app that showcases different books from vice city Miami
 Program start: 2022 10 25 1115
 Program end:   2022 11 8 1752
-Last edited:   2022 11 14 1755
+Last edited:   2022 11 14 1955
 Bootstrap type: Quartz
 
 
