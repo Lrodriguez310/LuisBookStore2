@@ -269,6 +269,8 @@ Project is DONE!
 updated migrations to fit my .net 3.0.  Had to change them because I accidentally selected 5.0 support instead of 
 3.0.  Updated all packages to fit project.
 
+update-database    ==== package console manager
+
 2022 11 7 1630
 
 running project... no errors ... everything looks good.
