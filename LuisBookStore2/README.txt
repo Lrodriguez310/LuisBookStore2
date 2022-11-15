@@ -564,14 +564,14 @@ this helped it to populate edit category on the edit file.
 added an API message in asking if the user is sure if he wants to delete 
 the input from the table.
 
-Also had an error on the javascript file trying to figure it out
+Also had an error on the javascript file trying to figure it out    ------------------------------problem
 
 
 2022 11 8 1606
 
 figured out the error changed the ; into a =>  this
 
-this fixed the error. moving on.
+this fixed the error. moving on.                      -- -- -- -- --Solved 
 
 2022 11 8 1023
 
