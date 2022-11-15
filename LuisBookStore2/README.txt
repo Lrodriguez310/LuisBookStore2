@@ -543,9 +543,13 @@ added asp action-upsert to the index.cshtml
 sql error couldnt find the Createandbacktolistbutton
 
 
+2022 11 8 1241
+
+Something wrong with the createandbacktolistbutton....
 
 
-2022 11 8 1242
+
+2022 11 8 1246
 
 fixed error I misspelled createandbacktolistbutton.  After correcting spelling it works.
 
