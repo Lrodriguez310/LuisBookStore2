@@ -604,7 +604,7 @@ Trying to find out how to resolve the error.
 
 Cannot populate chart and missing database
 
-Running Update-databse on the package manager console to generate and update an sql server - database
+Running Update-databse on the package manager console to generate and update an sql server - database      
 Database has now been populated under views - sql server object explorer - sql server - databases folder - reveals LuisBookStore
 
 2022 11 14 1851
