@@ -612,7 +612,7 @@ having trouble populating items into chart / table
 resolved issue by changed some of the javascript and upsert file. Added the correct case for the letter s in save and this seemed to solve the 
 issue. Application is working well so far. 
 
-Ending assingment 2  at 2022 11 14 1955
+Ending assingment 2 part 2 at 2022 11 14 1955
 
 
 
