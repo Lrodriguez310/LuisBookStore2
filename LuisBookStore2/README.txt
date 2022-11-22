@@ -762,13 +762,44 @@ Build and there are no errors ready to continue to part 2
 
 2022 11 22 1105
 
+Adding Product Controller  = ProductController.cs
+• To the Areas > Admin >
+Controllers to perform
+the CRUD operations
+• Add the
+IWebHostEvironment
+call and its using
+statement to the
+Microsoft.AspNetCore.
+Hosting (note the
+changes to the public
+ProductController
+method.
+
+Downloaded the Microsoft.AspNetCore.Hosting using Changes to the public ProductController under the quick fixes method.
+
 
 
 2022 11 22 1107
 
-
+Created a ViewModel in
+the Models project to
+hold the Product object
+and select list for
+Category and CoverType
 
 2022 11 22 1108
+
+under View model made a ProductVM
+
+ Modifying the
+ProductVM class so it
+is public and I also installed the
+Microsoft.AspNetCore.
+Mvc.ViewFeatures
+package.
+
+INSTALLED THE Microsoft.AspNetCore.Mvc.ViewFeatures package
 
 
 
