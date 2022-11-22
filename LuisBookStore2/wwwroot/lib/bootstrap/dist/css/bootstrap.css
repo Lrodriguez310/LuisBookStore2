@@ -1998,11 +1998,11 @@ progress {
 
 .table {
     --bs-table-color: var(--bs-body-color);
-    --bs-table-bg: transparent;
-    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-bg: ivory;
+    --bs-table-border-color: salmon;
     --bs-table-accent-bg: transparent;
-   /* --bs-table-striped-color: var(--bs-body-color);*/
-    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+   /*--bs-table-striped-color: var(--bs-body-color);*/
+    --bs-table-striped-bg: lightgreen;
     --bs-table-active-color: var(--bs-body-color);
     --bs-table-active-bg: rgba(0, 0, 0, 0.1);
     --bs-table-hover-color: var(--bs-body-color);
@@ -2011,7 +2011,7 @@ progress {
     margin-bottom: 2rem;
     color: var(--bs-table-color);
     vertical-align: top;
-    border-color: var(--bs-table-border-color);
+    border-color: lightsalmon;
 }
 
     .table > :not(caption) > * > * {
