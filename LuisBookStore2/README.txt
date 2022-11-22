@@ -944,4 +944,8 @@ method.
 2022 11 22 1158
 
 Running app and it works
+but no picture displayed.
+
+
+
 
