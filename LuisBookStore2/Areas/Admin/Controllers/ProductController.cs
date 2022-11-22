@@ -1,5 +1,6 @@
 ﻿using LuisBooks.DataAccess.Repository.IRepository;
 using LuisBooks.Models;
+using LuisBooks.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -27,10 +28,10 @@ namespace LuisBooks.Areas.Admin.Controllers
         {
             return View();
         }
-    }
-}
+    
 
-       /* public IActionResult PUpsert(int? id)
+
+        public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new ProductVM()
             {
@@ -62,7 +63,7 @@ namespace LuisBooks.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult PUpsert(ProductVM productVM)
+        public IActionResult Upsert(ProductVM productVM)
         {
             if (ModelState.IsValid)
             {
@@ -161,4 +162,4 @@ namespace LuisBooks.Areas.Admin.Controllers
         #endregion
 
     }
-}*/
+}
