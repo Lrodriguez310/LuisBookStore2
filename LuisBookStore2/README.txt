@@ -620,6 +620,74 @@ issue. Application is working well so far.
 
 Ending assingment 2 part 2 at 2022 11 14 1955
 
+========================== Assignment 2 part 3 Begins =======================================
 
 
+2022 11 21 1047   
+
+Created Cover Type CRUD with the exact same methods used for Category CRUD
+
+2022 11 21 1050 
+
+Added CoverType.cs in the Model’s folder
+
+CoverType Model will include an ID with a Name  
+• ID
+• Name
+
+2022 11 21 1120
+
+Added CoverType to the Repository
+• Added CoverTypeRepository Class
+• Added ICoverTypeRepository Interface
+• Added CoverType to UnitOfWork and IUnitofWork
+• Pushed CoverType to the Database (Create migration and update the DB)
+
+Created Migration in package manager console 
+add-migration 
+AddCoverTypeToDb
+
+20221121213050_AddCoverTypeToDb.cs
+
+and then I updated the Database with
+
+update-database
+
+
+2022 11 21 1124
+
+Performed CRUD operations on CoverType
+• Added Cover Type to NavBar = index.cshtml
+• Added CoverType Controller with all required Action Methods
+• Covered Type Index View to use DataTables
+• Covered Type Upsert View takes care of creating and updating CoverType
+• Deleted CoverType is done using the API Call.
+
+2022 11 21 1127
+
+2022 11 21 1133
+
+2022 11 21 1135
+
+2022 11 21 1140
+
+2022 11 21 1141
+
+2022 11 21 1145
+
+2022 11 21 1152
+
+2022 11 21 1154
+
+2022 11 21 1158
+
+2022 11 22 1020
+
+2022 11 22 1034
+
+2022 11 22 1036
+
+2022 11 22 1049
+
+2022 11 22 1101
 
