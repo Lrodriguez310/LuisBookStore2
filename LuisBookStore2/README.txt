@@ -842,3 +842,28 @@ Added an index view for Product List
 
 2022 11 22 1123
 
+Copied the Index.cshtml
+code from
+Views/Category and
+modified to the Product
+List header. 
+
+
+2022 11 22 1126
+
+Created New Product and added
+the following
+properties – Title /
+ISBN / Price / Author /
+Category and
+reference a new
+product.js file.
+
+2022 11 22 1131
+
+2022 11 22 1134
+
+2022 11 22 1135
+
+2022 11 22 1138
+
