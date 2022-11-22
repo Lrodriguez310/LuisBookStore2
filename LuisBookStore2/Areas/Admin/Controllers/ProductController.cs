@@ -72,7 +72,7 @@ namespace LuisBooks.Areas.Admin.Controllers
                 if (files.Count > 0)
                 {
                     string fileName = Guid.NewGuid().ToString();
-                    var uploads = Path.Combine(webRootPath, @"images\products");
+                    var uploads = Path.Combine(webRootPath, @"\images\products");
                     var extension = Path.GetExtension(files[0].FileName);
 
                     if (productVM.Product.ImageUrl != null)
