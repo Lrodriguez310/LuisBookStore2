@@ -620,8 +620,14 @@ issue. Application is working well so far.
 
 Ending assingment 2 part 2 at 2022 11 14 1955
 
+
+
+
+=============================================================================================
+
 ========================== Assignment 2 part 3 Begins =======================================
 
+=============================================================================================
 
 2022 11 21 1047   
 
@@ -695,7 +701,26 @@ Adding public to all classes to make sure they can be accessed throughout the ot
 
 2022 11 21 1152
 
+Added a reference to the new
+Products piece to the
+database in the
+ApplicationDbContext.cs file
+did the same for Covertype
+
 2022 11 21 1154
+
+In the PM Console, run the
+add-migration command for
+an ‘addProductToDb’
+migration and updatedatabase
+
+add-migration AddProductToDb                     ===================Migration #2 ===========================
+ 
+20221122011459_AddProductToDb  
+
+update-database
+
+Database updating and it is running well.
 
 2022 11 21 1158
 
