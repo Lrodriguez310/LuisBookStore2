@@ -730,6 +730,8 @@ Shows error in Upsert... Looking for a solution      ==================== Error 
 
 2022 11 22 1020
 
+Error Resolved had a lowercase covertype where it should have been CoverType   Error resolved now continuing.
+
 2022 11 22 1034
 
 2022 11 22 1036
