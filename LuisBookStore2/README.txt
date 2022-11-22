@@ -665,8 +665,11 @@ Performed CRUD operations on CoverType
 
 2022 11 21 1127
 
+Had an error with the Navbar looking to see what to fix..
 
 2022 11 21 1133
+
+error resolved just had to at the index for asp area= "index"
 
 2022 11 21 1135
 
