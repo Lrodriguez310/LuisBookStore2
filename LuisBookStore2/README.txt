@@ -812,6 +812,12 @@ Upsert calls to the
 ProductVM view
 model. 
 
+
+
+
+
+2022 11 22 1113
+
 including the
 using statements to
 the ViewModels folder
@@ -822,16 +828,16 @@ Mvc.Rendering
 
 
 
-2022 11 22 1113
-
-
-
 2022 11 22 1114
 
-
+ Modified the API call to
+include the Category
+and CoverType
+properites
 
 2022 11 22 1116
 
+Added an index view for Product List
 
 
 2022 11 22 1123
