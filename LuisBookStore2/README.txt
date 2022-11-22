@@ -805,6 +805,21 @@ INSTALLED THE Microsoft.AspNetCore.Mvc.ViewFeatures package
 
 2022 11 22 1110
 
+Modifying the
+ProductController so
+the IActionResult
+Upsert calls to the
+ProductVM view
+model. 
+
+including the
+using statements to
+the ViewModels folder
+and
+Microsoft.AspNetCore.
+Mvc.Rendering
+
+
 
 
 2022 11 22 1113
