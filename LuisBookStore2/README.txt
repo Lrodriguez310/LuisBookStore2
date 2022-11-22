@@ -647,11 +647,11 @@ Created Migration in package manager console
 add-migration 
 AddCoverTypeToDb
 
-20221121213050_AddCoverTypeToDb.cs
+20221121213050_AddCoverTypeToDb.cs                       =======MIGRATION #1 =========
 
 and then I updated the Database with
-
-update-database
+ 
+update-database                               ====Update - database under dataaccess ======
 
 
 2022 11 21 1124
@@ -673,6 +673,8 @@ error resolved just had to at the index for asp area= "index"
 
 
 2022 11 21 1135
+
+Running program:  Program is running and displaying the like the example on the IIS Express.
 
 2022 11 21 1140
 
