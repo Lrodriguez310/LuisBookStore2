@@ -678,9 +678,20 @@ Running program:  Program is running and displaying the like the example on the 
 
 2022 11 21 1140
 
+Adding a new class called Product in
+the .Models project
+
+
 2022 11 21 1141
 
+Adding the code to build the
+blueprint of this class and
+making sure it’s “public” and
+that any errors are resolved
+
 2022 11 21 1145
+
+Adding public to all classes to make sure they can be accessed throughout the other classes and interfaces.
 
 2022 11 21 1152
 
