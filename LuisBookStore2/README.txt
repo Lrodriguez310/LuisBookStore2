@@ -722,7 +722,11 @@ update-database
 
 Database updating and it is running well.
 
+
+
 2022 11 21 1158
+
+Shows error in Upsert... Looking for a solution      ==================== Error #2 ==============================
 
 2022 11 22 1020
 
