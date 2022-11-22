@@ -54,7 +54,7 @@ namespace LuisBookStore.Areas.Admin.Controllers
                 {
                     _unitOfWork.Category.Update(category);
                 }
-                _unitOfWork.save();
+                _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
@@ -78,7 +78,7 @@ namespace LuisBookStore.Areas.Admin.Controllers
                 return Json(new { success = false, message = "Error while Deleting" });
             }
             _unitOfWork.Category.Remove(objFromDb);
-            _unitOfWork.save();
+            _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successfull" });
         }
         #endregion
