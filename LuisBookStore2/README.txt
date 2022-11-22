@@ -746,7 +746,14 @@ update-database
 
 2022 11 22 1036
 
+Adding a product.cs into the repository
+adding a iproduct = iproductrepository into irepository
+
 2022 11 22 1049
+
+Adding Product to UnitOfWork and
+IUnitofWork
+
 
 2022 11 22 1101
 
