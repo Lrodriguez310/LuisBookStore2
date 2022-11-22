@@ -734,6 +734,16 @@ Error Resolved had a lowercase covertype where it should have been CoverType   E
 
 2022 11 22 1034
 
+Updated the Product class so
+Title, ISBN and Author are
+[Required]
+
+add-migration addValidationToProduct
+
+20221122012022_addValidationToProduct                                    ===================== Migration#3 =========================
+
+update-database
+
 2022 11 22 1036
 
 2022 11 22 1049
