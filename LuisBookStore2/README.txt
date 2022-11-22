@@ -861,7 +861,24 @@ product.js file.
 
 2022 11 22 1131
 
+Copy/Pasted the
+category.js and
+rename to product.js
+(modify the URL to
+point to Product)
+
+
 2022 11 22 1134
+
+Modified the
+_Layout.cshtml to add
+a new link to Product.
+
+
+Ran the application but got an exception which wont allow me to continue
+
+The assignment said this is ok and I will now continue to the last part.
+
 
 2022 11 22 1135
 
