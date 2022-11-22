@@ -880,7 +880,17 @@ Ran the application but got an exception which wont allow me to continue
 The assignment said this is ok and I will now continue to the last part.
 
 
-2022 11 22 1135
+2022 11 22 1135                                                    ==============Trouble ====================
 
-2022 11 22 1138
+Created an Upsert.cs
+for Products and
+modified it in Areas > Admin > Views > Product
+
+Having trouble
+
+
+2022 11 22 1138                              ============= Resolved ===============
+
+looking into assignment 2 files and figured out how to do this.
+Problem solved.
 
