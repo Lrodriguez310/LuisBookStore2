@@ -658,9 +658,9 @@ update-database
 
 Performed CRUD operations on CoverType
 • Added Cover Type to NavBar = index.cshtml
-• Added CoverType Controller with all required Action Methods
-• Covered Type Index View to use DataTables
-• Covered Type Upsert View takes care of creating and updating CoverType
+• Added CoverType Controller with all required Action Methods = added all of the asp into the index.cshtml navbar
+• Cover Type Index View to use DataTables = Cover type is now able to be seen as a datatable
+• Cover Type Upsert View takes care of creating and updating CoverType 
 • Deleted CoverType is done using the API Call.
 
 2022 11 21 1127
