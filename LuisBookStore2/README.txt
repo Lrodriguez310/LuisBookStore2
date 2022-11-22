@@ -894,3 +894,54 @@ Having trouble
 looking into assignment 2 files and figured out how to do this.
 Problem solved.
 
+
+2022 11 22 1140
+
+Added a textbox to
+the textarea inside
+Product with
+tiny.cloud using the API
+key provided. 
+
+2022 11 22 1146
+
+initialized
+and added a function to
+validate input and if
+empty, it will display an alert.
+
+2022 11 22 1147
+
+Running App to see if it works.
+
+2022 11 22 1149
+
+App is working but giving an error....
+
+2022 11 22 1150
+
+The error is in the folders and how to obtain the picture I selected.
+
+2022 11 22 1152
+
+Added a new folder and
+subfolder in wwwroot
+> images/products
+
+2022 11 22 1155
+
+Still cannot see the picture I uploaded.
+
+
+2022 11 22 1156
+
+In the ProductController I 
+configured the Product
+Upsert Post action
+method.
+
+
+2022 11 22 1158
+
+Running app and it works
+
