@@ -16,6 +16,7 @@ public class UnitOfWork : IUnitOfWork //make the method public to access the cla
         Category = new CategoryRepository(_db);
         SP_Call = new SP_Call(_db);
         CoverType = new CoverTypeRepository(_db);
+            Product = new ProductRepository(_db);
     }
     public ICategoryRepository Category { get; private set; }// throw new NotImplementedException();
 
@@ -28,10 +29,12 @@ public class UnitOfWork : IUnitOfWork //make the method public to access the cla
     {
         get; private set;
     }
-
+    public ProductRepository Product { get; private set; }
     public ICoverTypeRepository CoverTypeRePository => throw new NotImplementedException();
 
-    public void Dispose()
+        IProductRepository IUnitOfWork.Product => throw new NotImplementedException();
+
+        public void Dispose()
     {
         _db.Dispose();
     }
