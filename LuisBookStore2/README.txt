@@ -988,6 +988,9 @@ changed the directory to render the images everything is pulling well.
 
 2022 11 30 1120
 
+I will display the images in a div after the product page has been populated with data. After hitting create it will populate in 
+product table and on homepage.
+
 2022 11 30 1125
 
 
