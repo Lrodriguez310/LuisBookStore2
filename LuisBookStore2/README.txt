@@ -947,5 +947,29 @@ Running app and it works
 but no picture displayed.
 
 
+Assignment 2 part 4
+
+
+2022 11 30 1048
+
+added price , price 50 , and price 100 to the product.cs
+
+added the rows and divs for price , price 50 , and price 100 to upsert.cshtml under product folder
+
+2022 11 30 1050
+
+added migration for new product
+
+add-migration
+
+addNewValidationToProduct.cs
+
+20221130161744_addNewValidationToProduct.cs
+
+2022 11 30 1056
+
+
+
+
 
 
