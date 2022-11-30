@@ -956,6 +956,9 @@ added price , price 50 , and price 100 to the product.cs
 
 added the rows and divs for price , price 50 , and price 100 to upsert.cshtml under product folder
 
+
+
+
 2022 11 30 1050
 
 added migration for new product
@@ -965,6 +968,14 @@ add-migration
 addNewValidationToProduct.cs
 
 20221130161744_addNewValidationToProduct.cs
+
+
+
+UPDATED DATABASE
+
+update-database
+
+
 
 2022 11 30 1056
 
