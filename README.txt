@@ -949,4 +949,61 @@ Running app and it works
 but no picture displayed.
 
 
+==================================================
+Assignment 2 part 4
+==================================================
+
+2022 11 30 1048
+
+added price , price 50 , and price 100 to the product.cs
+
+added the rows and divs for price , price 50 , and price 100 to upsert.cshtml under product folder
+
+2022 11 30 1050
+
+added migration for new product
+
+add-migration
+
+addNewValidationToProduct.cs
+
+20221130161744_addNewValidationToProduct.cs
+
+2022 11 30 1051
+
+An error occurred when trying to load up an image. An exception is thrown.
+
+I think I may have to change up where I am pulling the images.
+
+2022 11 30 1056
+
+updated the home index.cshtml file to make it match with the bulkbook project.
+
+The code will then render the image from the images / products / "book.jpg"
+
+The code will also place the image in a row which will display the picture
+
+The price and the new price with a details button.
+
+
+
+2022 11 30 1058 
+
+issue resolved. The image now uploads fine after adjusting the controller.
+
+
+2022 11 30 1111
+
+Added images into the folder and applied it into
+
+changed the directory to render the images everything is pulling well.
+
+
+
+2022 11 30 1120
+
+I will display the images in a div after the product page has been populated with data. After hitting create it will populate in 
+product table and on homepage.
+
+2022 11 30 1125
 
