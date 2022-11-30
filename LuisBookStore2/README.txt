@@ -993,6 +993,11 @@ product table and on homepage.
 
 2022 11 30 1125
 
+AFter running the program it looks like the image populates well along with listed price and new price.
+Looks like the one in bulkbook
+
+
+
 
 
 
