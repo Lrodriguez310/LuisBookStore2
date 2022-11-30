@@ -968,7 +968,23 @@ addNewValidationToProduct.cs
 
 2022 11 30 1056
 
+updated the home index.cshtml file to make it match with the bulkbook project.
 
+The code will then render the image from the images / products / "book.jpg"
+
+The code will also place the image in a row which will display the picture
+
+The price and the new price with a details button.
+
+
+
+2022 11 30 1111
+
+Added images into the folder and applied it into
+
+2022 11 30 1120
+
+2022 11 30 1125
 
 
 
