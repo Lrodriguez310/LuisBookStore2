@@ -982,6 +982,10 @@ The price and the new price with a details button.
 
 Added images into the folder and applied it into
 
+changed the directory to render the images everything is pulling well.
+
+
+
 2022 11 30 1120
 
 2022 11 30 1125
