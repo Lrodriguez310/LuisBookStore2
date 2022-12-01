@@ -1011,6 +1011,11 @@ AFter running the program it looks like the image populates well along with list
 Looks like the one in bulkbook
 
 
+2022 11 30 1140
+
+Added price , price50 , price100 into the product repository to reflect in the unitofwork.
+
+
 
 
 
