@@ -2,7 +2,7 @@
 Program purpose: To make a web app that showcases different books from vice city Miami
 Program start: 2022 10 25 1115
 Program end:   2022 11 8 1752
-Last edited:   2022 11 14 1955
+Last edited:   2022 12 06 1000
 Bootstrap type: Quartz
 
 
@@ -1018,6 +1018,10 @@ Added price , price50 , price100 into the product repository to reflect in the u
 2022 11 30 23:54
 
 changed the namespace of homecontroller to fit project.
+
+2022 12 06 1005
+
+updated thelast time edited project.
 
 
 
