@@ -1,10 +1,8 @@
-# LuisBookStore2
-book store 
-﻿Programmer name: Luis Rodriguez
+﻿﻿Programmer name: Luis Rodriguez
 Program purpose: To make a web app that showcases different books from vice city Miami
 Program start: 2022 10 25 1115
 Program end:   2022 11 8 1752
-Last edited:   2022 11 14 1955
+Last edited:   2022 12 06 1000
 Bootstrap type: Quartz
 
 
@@ -947,17 +945,22 @@ method.
 
 Running app and it works
 but no picture displayed.
+============================================================================================================
 
 
-==================================================
-Assignment 2 part 4
-==================================================
+
+======================
+Assignment 2 part 4 ==
+======================
 
 2022 11 30 1048
 
 added price , price 50 , and price 100 to the product.cs
 
 added the rows and divs for price , price 50 , and price 100 to upsert.cshtml under product folder
+
+
+
 
 2022 11 30 1050
 
@@ -969,11 +972,13 @@ addNewValidationToProduct.cs
 
 20221130161744_addNewValidationToProduct.cs
 
-2022 11 30 1051
 
-An error occurred when trying to load up an image. An exception is thrown.
 
-I think I may have to change up where I am pulling the images.
+UPDATED DATABASE
+
+update-database
+
+
 
 2022 11 30 1056
 
@@ -985,11 +990,6 @@ The code will also place the image in a row which will display the picture
 
 The price and the new price with a details button.
 
-
-
-2022 11 30 1058 
-
-issue resolved. The image now uploads fine after adjusting the controller.
 
 
 2022 11 30 1111
@@ -1006,4 +1006,25 @@ I will display the images in a div after the product page has been populated wit
 product table and on homepage.
 
 2022 11 30 1125
+
+AFter running the program it looks like the image populates well along with listed price and new price.
+Looks like the one in bulkbook
+
+
+2022 11 30 1140
+
+Added price , price50 , price100 into the product repository to reflect in the unitofwork.
+
+2022 11 30 23:54
+
+changed the namespace of homecontroller to fit project.
+
+2022 12 06 1005
+
+updated thelast time edited project.
+
+
+
+
+
 
